@@ -1,19 +1,50 @@
 aid: hosta-ai
 name: Hosta a.i.
-description: Hosta a.i. is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hosta a.i. is an AI-powered remote property assessment platform that turns ordinary
+  photographs from any camera into precise measurements, detailed floor plans, material
+  classifications, condition assessments, and bills of materials. Using patented AI spatial
+  and material analytics, Hosta automates onsite property analysis without specialized
+  equipment or site visits, and exposes these capabilities through configurable APIs so
+  insurers, appraisers, inspectors, contractors, property managers, home-improvement
+  platforms, and furniture retailers can embed remote assessment into their existing
+  workflows and systems. Founded in 2020 and headquartered in Cambridge, Massachusetts,
+  Hosta is a Techstars- and Eclipse-backed company operating on a secure AWS cloud platform
+  with PII filtering protections.
 url: https://raw.githubusercontent.com/api-evangelist/hosta-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://hosta.ai/wp-content/uploads/2023/09/Automation-Edition-Icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - techstars
+- eclipse
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Property Technology
+- PropTech
+- Artificial Intelligence
+- Computer Vision
+- Property Assessment
+- Insurance
+- Construction
+- Real Estate
+- Spatial Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,34 @@ maintainers:
 common:
 - type: Website
   url: https://hosta.ai/
+- type: DeveloperPortal
+  url: https://hosta-api.readme.io/
+- type: Documentation
+  url: https://hosta-api.readme.io/
+- type: APIReference
+  url: https://hosta.ai/configurable-apis/
+- type: Pricing
+  url: https://hosta.ai/pricing/
+- type: Support
+  url: https://hosta.ai/support/
+- type: Blog
+  url: https://hosta.ai/blog/
+- type: BlogRSS
+  url: https://hosta.ai/blog/feed/
+- type: TermsOfService
+  url: https://hosta.ai/terms-of-use/
+- type: PrivacyPolicy
+  url: https://hosta.ai/privacy-policy/
+- type: SignUp
+  url: https://hosta.ai/request-demo/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hosta-ai/
+- type: LLMsTxt
+  url: llms/hosta-ai-llms.txt
+- type: DomainSecurity
+  url: security/hosta-ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
