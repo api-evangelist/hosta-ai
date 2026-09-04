@@ -34,6 +34,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://hosta.ai/', status: 301, note: 'declared website redirects to https://www.elaraspatial.ai/ — a different registrable domain (hosta.ai -> elaraspatial.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://hosta.ai/wp-content/uploads/2023/09/Automation-Edition-Icon.png
 x-type: company
 x-source: vc-portfolio
